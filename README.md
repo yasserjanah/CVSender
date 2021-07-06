@@ -50,3 +50,8 @@ pip3 install -r requirements.txt
 ```
     python CVSender.py --emails list_of_emails.txt
 ```
+
+# Result
+<p align="center">
+    <img src="https://i.ibb.co/YTJdY5n/Screenshot-select-area-20210706144431.png">
+</p>
