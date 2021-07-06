@@ -36,8 +36,8 @@ pip3 install -r requirements.txt
     <img src="https://i.ibb.co/nRZbszG/Screenshot-select-area-20210706125503.png">
 </p>
 
-1.1. change <strong>SMTP_SERVER</strong> value to your mail server (if you will be using your Gmail account don't change the value).
-1.2. change <strong>SMTP_PORT</strong> value to your mail server port (if you will be using your Gmail account don't change the value).
+- [1.1. change <strong>SMTP_SERVER</strong> value to your mail server (if you will be using your Gmail account don't change the value).]
+- 1.2. change <strong>SMTP_PORT</strong> value to your mail server port (if you will be using your Gmail account don't change the value).
 1.3. change <strong>SMTP_EMAIL</strong> value to your own e-mail.
 1.4. change <strong>SMTP_PASS</strong> value to your own e-mail password. (if you will be using your Gmail account, please create new App Password from <a href="https://myaccount.google.com/apppasswords">Here</a>.
 1.5. change <strong>SENDER_NAME</strong> to your full name.
