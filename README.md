@@ -21,3 +21,5 @@ pip3 install -r requirements.txt
 ```
 
 # Usage
+
+1. edit <code>conf/config.ini</code> file.
