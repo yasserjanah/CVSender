@@ -196,9 +196,10 @@ def main():
         f"\n{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}]{Fore.WHITE} Total elapsed time {Fore.YELLOW}{end:.4f} {Fore.WHITE}second(s).{Fore.RESET}\n")
 
 
-try:
-    main()
-except KeyboardInterrupt:
-    exit(f"\n{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.WHITE} Ctrl+C {Fore.YELLOW}detected! ... {Fore.RED}shutting down.{Fore.RESET}\n")
-except Exception as err:
-    raise err
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        exit(f"\n{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.WHITE} Ctrl+C {Fore.YELLOW}detected! ... {Fore.RED}shutting down.{Fore.RESET}\n")
+    except Exception as err:
+        raise err
