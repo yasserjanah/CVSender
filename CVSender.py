@@ -22,7 +22,8 @@ try:
     from email import encoders
     from re import search
     from sys import platform
-    import smtplib, sys
+    import smtplib
+    import sys
     sys.stdin.reconfigure(encoding='utf-8')
     sys.stdout.reconfigure(encoding='utf-8')
 except ModuleNotFoundError as err:
@@ -188,8 +189,12 @@ def main():
 
     start: float = perf_counter()
 
-    Sender = CVSender(args.emails)
-    Sender.run()
+    if (not exists(args.emails)):
+        print(f"{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.WHITE} Email List is {Fore.RED}not exists{Fore.WHITE} at path :{Fore.YELLOW} '{Fore.CYAN}{args.emails}{Fore.YELLOW}'.")
+
+    else:
+        Sender = CVSender(args.emails)
+        Sender.run()
 
     end: float = perf_counter() - start
     print(
@@ -200,6 +205,7 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        exit(f"\n{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.WHITE} Ctrl+C {Fore.YELLOW}detected! ... {Fore.RED}shutting down.{Fore.RESET}\n")
+        exit(
+            f"\n{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.WHITE} Ctrl+C {Fore.YELLOW}detected! ... {Fore.RED}shutting down.{Fore.RESET}\n")
     except Exception as err:
         raise err
