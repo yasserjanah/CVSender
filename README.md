@@ -12,12 +12,15 @@ Automate sending your resume to recruiters
 # Screenshots
 <strong align="center">Linux OS</strong>
 
-![Linux](https://i.ibb.co/YjmnzFz/Screenshot-select-area-20210706130025.png)
+<p align="center">
+    <img src="https://i.ibb.co/YjmnzFz/Screenshot-select-area-20210706130025.png">
+</p>
 
 <strong align="center">Windows OS</strong>
 
-![Windows](https://i.ibb.co/4tD14MR/Screenshot-select-area-20210706120917.png)
-
+<p align="center">
+    <img src="https://i.ibb.co/4tD14MR/Screenshot-select-area-20210706120917.png">
+</p>
 # Installation
 ```
 git clone https://github.com/yasserjanah/CVSender
@@ -28,3 +31,6 @@ pip3 install -r requirements.txt
 # Usage
 
 1. edit <code>conf/config.ini</code> file.
+<p align="center">
+    <img src="https://i.ibb.co/nRZbszG/Screenshot-select-area-20210706125503.png">
+</p>
