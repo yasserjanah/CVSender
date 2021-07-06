@@ -36,14 +36,14 @@ pip3 install -r requirements.txt
     <img src="https://i.ibb.co/nRZbszG/Screenshot-select-area-20210706125503.png">
 </p>
 
-- [1.1. change <strong>SMTP_SERVER</strong> value to your mail server (if you will be using your Gmail account don't change the value).]
-- 1.2. change <strong>SMTP_PORT</strong> value to your mail server port (if you will be using your Gmail account don't change the value).
-1.3. change <strong>SMTP_EMAIL</strong> value to your own e-mail.
-1.4. change <strong>SMTP_PASS</strong> value to your own e-mail password. (if you will be using your Gmail account, please create new App Password from <a href="https://myaccount.google.com/apppasswords">Here</a>.
-1.5. change <strong>SENDER_NAME</strong> to your full name.
-1.6. change <strong>MAIL_SUBJECT</strong>.
-1.7. change <strong>CV_PATH</strong> value to your resume path.
-1.8. change <strong>TEMPLATE</strong> value to your email template (or let it in default template, but you should make changes to example.html).
+- change <strong>SMTP_SERVER</strong> value to your mail server (if you will be using your Gmail account don't change the value).
+- change <strong>SMTP_PORT</strong> value to your mail server port (if you will be using your Gmail account don't change the value).
+- change <strong>SMTP_EMAIL</strong> value to your own e-mail.
+- change <strong>SMTP_PASS</strong> value to your own e-mail password. (if you will be using your Gmail account, please create new App Password from <a href="https://myaccount.google.com/apppasswords">Here</a>.
+- change <strong>SENDER_NAME</strong> to your full name.
+- change <strong>MAIL_SUBJECT</strong>.
+- change <strong>CV_PATH</strong> value to your resume path.
+- change <strong>TEMPLATE</strong> value to your email template (or let it in default template, but you should make changes to example.html).
 
 2. create a file that contains emails (each one in a different line).
 3. run the script.
