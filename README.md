@@ -21,6 +21,7 @@ Automate sending your resume to recruiters
 <p align="center">
     <img src="https://i.ibb.co/4tD14MR/Screenshot-select-area-20210706120917.png">
 </p>
+
 # Installation
 ```
 git clone https://github.com/yasserjanah/CVSender
@@ -34,3 +35,4 @@ pip3 install -r requirements.txt
 <p align="center">
     <img src="https://i.ibb.co/nRZbszG/Screenshot-select-area-20210706125503.png">
 </p>
+    if want to use google mail, create new App passwords from <a href="https://myaccount.google.com/apppasswords" target="_blank">Here</a>.
