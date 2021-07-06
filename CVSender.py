@@ -123,7 +123,7 @@ class CVSender(object):
         self.MESSAGE['subject'] = self.SUBJECT
 
         self.MESSAGE.attach(
-            MIMEText(open(self.TEMPLATE, mode="r").read(), "html"))
+            MIMEText(open(self.TEMPLATE, mode="r").read(), "html", "utf-8"))
 
         attach = MIMEBase('application', 'octet-stream')
         attach.set_payload(open(self.CV_PATH, mode="rb").read())
