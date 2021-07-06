@@ -22,7 +22,9 @@ try:
     from email import encoders
     from re import search
     from sys import platform
-    import smtplib
+    import smtplib, sys
+    sys.stdin.reconfigure(encoding='utf-8')
+    sys.stdout.reconfigure(encoding='utf-8')
 except ModuleNotFoundError as err:
     exit(err)
 
